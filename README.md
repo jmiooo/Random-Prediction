@@ -8,4 +8,4 @@ Instead of trying to predict the value of just stocks, why not try predicting th
 - Seeing which natural data sets emulate stock prices, and would make people believe it could actually be a stock
 
 
-Ultimately, this game is for people to have fun playing around with all sorts of data sets (courtesy of Bloomberg's API), and for the user to become the #1 investor of daily beef consumption around the world (in millions of metric tonnes).
+Ultimately, this game is for people to have fun playing around with all sorts of data sets (courtesy of Bloomberg's API), and for the user to become the #1 investor of daily beef consumption in the U.S. (in thousands of metric tonnes).
