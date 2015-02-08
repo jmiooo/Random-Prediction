@@ -1,3 +1,5 @@
+TartanHacks 2015 - Bloomberg 1st Place Hack
+
 Random Prediction Game
 
 Do you ever wonder how we can predict how stocks can go up or down? People have spent decades trying to come up with sophisticated analytical tools to predict stock prices. Why don't we take this hard question one level deeper? 
