@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <meta content="charset=utf-8">
+    <title>Main Game Page</title>
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+    <link rel="stylesheet" type="text/css" href="/css/game.css">
+  </head>
+  <body class="loading">
+    <!--div style="background-image:url('assets/stock.jpeg'); background-repeat:no-repeat; background-size:cover; display:block; height:800px; z-index:1; -webkit-filter:blur(5px)"></div-->
+    <div id="big-box" style="margin: 0px auto; text-align:center; min-width: 1300px";>
+      <div id="left-container" style="display:inline-block; left:50%; text-align:left">
+        <div id="left" style="margin-bottom:15px"><!--position: fixed; z-index:9999; left:0; right:0"-->
+          <div id="container" style="height: 450px; width: 900px; margin-bottom:10px"></div>
+          <button type="button" id="buy-exit-short" style="width: 100px; height: 30px">Buy</button>
+          <button type="button" id="short-sell" style="width: 100px; height: 30px">Short</button>
+          <button type="button" id="start-stop" style="width: 100px; height: 30px">Start</button>
+          <button type="button" id="submit" style="width: 100px; height: 30px">Submit</button>
+          <button type="button" id="load" style="width: 100px; height: 30px">Load</button>
+          <button type="button" id="time-lapse" style="width: 100px; height: 30px">Time Lapse</button>
+          <input type="text" id="name" name="firstname" value="David Lu" style="width: 270px; height: 25px">
+        </div>
+
+        <div id="right">
+          <table id="board" style="width: '100%'">
+            <thead>
+              <tr>
+                <th>Recently Played Stocks</th>
+              </tr>
+            </thead>
+            <tfoot id="board-body">
+            </tfoot>
+          </table>
+        </div>
+      </div>
+      <div id="right-container" style="display:inline-block; max-width:350px;text-align:left; vertical-align:top">
+        <div id="info-container" style="min-height:200px;">
+          <table id="info" style="width: '100%'">
+            <thead>
+              <tr>
+                <th>Info</th>
+              </tr>
+            </thead>
+            <tfoot id="info-body">
+              <tr>
+                <td>
+                  <p id="position">Shares: 0</p>
+                  <p id="money">Portfolio: $10000</p>
+                  <p id="price">Share Price: $10000</p>
+                  <p id="stock-info"></p>
+                </td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+        <div id="transaction-container">
+          <table id="transactions" style="width: '100%'">
+            <thead>
+              <tr>
+                <th>Transactions</th>
+              </tr>
+            </thead>
+            <tfoot id="transactions-body">
+            </tfoot>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <script src="/js/jquery/jquery-1.11.1.min.js"></script>
+    <script src="http://code.highcharts.com/stock/highstock.js"></script>
+    <script src="http://code.highcharts.com/stock/modules/exporting.js"></script>
+    <script type="text/javascript" src="/js/gameGraph.js"></script>
+    <script type="text/javascript" src="/js/game.js"></script>
+
+    <!--script src="http://fb.me/react-with-addons-0.10.0.js"></script>
+    <script src="http://fb.me/JSXTransformer-0.10.0.js"></script>
+    <script type="text/javascript" src="/js/board.js"></script-->
+  </body>
+</html>
